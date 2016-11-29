@@ -7,6 +7,7 @@ are (we have tested with the versions below, but other versions may be fine too)
 2. [Vagrant 1.6.2](http://www.vagrantup.com/downloads)
 3. [Ansible 1.6.1](http://docs.ansible.com/intro_installation.html)
 
+Make sure that you have enabled the VT-X hardware virtualization feature on your machine, otherwise Vagrant won't start the VM.
 Once you have Virtualbox and Vagrant installed on your machine, you can:
 
 ```
